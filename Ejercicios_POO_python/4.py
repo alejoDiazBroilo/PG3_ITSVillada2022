@@ -3,10 +3,10 @@ class Calculadora:
         self.Numero1 = numero1
         self.Numero2 = numero2
 
-        print(self.Suma())
-        print(self.Resta())
-        print(self.multiplicacion())
-        print(self.Division())
+        print("suma = " , self.Suma())
+        print("resta = " , self.Resta())
+        print("multiplicacion = " , self.multiplicacion())
+        print("division = " , self.Division())
 
         
     def Suma(self) -> int:
@@ -24,7 +24,6 @@ class Calculadora:
         else:
             return "no se puede dividir entre 0"
 
-cacl = Calculadora(int(input("dame dato 1: ")), int(input("dame dato 2: ")))
-
+calc = Calculadora(int(input("dame dato 1: ")), int(input("dame dato 2: ")))
         
 
