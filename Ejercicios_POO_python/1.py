@@ -5,6 +5,10 @@ class Persona:
     def Name(self) -> str:
         return str(self.nombre)
 
-P1 = Persona(str(input("Which name shall i receive... father: ")))
+P1 = Persona("Teo")
 
-print(f"my child, as god as my witness, you shall be refered as: {P1.Name()}. Now go, go and feel the world...")
+print("the father shall be called: " + P1.Name())
+
+P1 = Persona(str(input("\nWhich name shall i receive... father: ")))
+
+print(f"_my child, as god as my witness, \n_you shall be refered as: {P1.Name()}. \n_Now go, go and feel the world...")

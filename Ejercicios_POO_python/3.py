@@ -25,12 +25,21 @@ class Triangulo:
             return "mas grande = lado 2"
         elif self.Lado3 > self.Lado1 and self.Lado3 > self.Lado2:
             return "mas grande = lado 3"
+        elif self.Lado1 == self.Lado2 and self.Lado2 == self.Lado3:
+            return "Los lados son iguales"
+
 
 thisTriangulo = Triangulo(input("lado 1: "), input("lado 2: "), input("lado 3: "))
 
 print(thisTriangulo.imprimir())
-print(str(thisTriangulo.isEquilatero()))
+print("¿Es equilatero? " + str(thisTriangulo.isEquilatero()))
 print(str(thisTriangulo.ladoGrande()))
+
+thisTriangulo2 = Triangulo(input("lado 1: "), input("lado 2: "), input("lado 3: "))
+
+print(thisTriangulo2.imprimir())
+print("¿Es equilatero? " + str(thisTriangulo.isEquilatero()))
+print(str(thisTriangulo2.ladoGrande()))
 
 
 

@@ -3,10 +3,10 @@ class Calculadora:
         self.Numero1 = numero1
         self.Numero2 = numero2
 
-        print("suma = " , self.Suma())
-        print("resta = " , self.Resta())
-        print("multiplicacion = " , self.multiplicacion())
-        print("division = " , self.Division())
+        print("*suma = " , self.Suma())
+        print("*resta = " , self.Resta())
+        print("*multiplicacion = " , self.multiplicacion())
+        print("*division = " , self.Division())
 
         
     def Suma(self) -> int:
