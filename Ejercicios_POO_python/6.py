@@ -5,7 +5,6 @@ class Familia:
         self.hijos = hijos
     def __str__(self):
         return f"Padre: {self.padre} \nMadre: {self.madre} \nHijos: {self.Hijos()}"
-    #def put the string of a list on une line   
     def Hijos(self):
         strToPrint = ""
         for i in self.hijos:
